@@ -1,0 +1,463 @@
+body{
+    margin: auto;
+    justify-content: center;  
+}
+main{
+    max-width: 100%;
+    margin: auto;
+    border: #26BCA5 solid 2px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+}
+.itr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:350px;  
+    background: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.itr img{
+    width: 7%;
+}
+
+
+.itt{
+    text-align: center;
+}
+.ttt {
+    text-align: center;
+}
+.hh{
+    text-align: center;
+    padding: 35px;
+}
+
+.gh{
+    color:gray;
+    font-size: 25px;
+    
+}
+.ttt button{
+    color: white;
+    margin: 0 17px;
+}
+.ttt .iOS{
+    background-color: #26BCA5;
+    padding: 13px 35px 13px 35px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 8px 15px #26bca55b;
+}
+.ttt .mac{
+    background-color: #6174FF;
+    padding: 13px 35px 13px 35px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 8px 15px #6173ff5a ;
+}
+p{
+    color: gray;
+    font-size: 19px;
+}
+.zz{
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+}
+.zz div{
+   text-align: start;
+}
+.zz{
+   gap: 5.5em;
+  }
+.para span{
+    font-size: 2.3em;
+}
+.quick{
+    font-size: 2.3em;
+}
+
+.eee {
+    text-align: center;   
+}
+.rrr{
+    text-align: center;  
+}
+.rrr img{
+    padding: 75px;
+}
+.ppp {
+    text-align: center;
+}
+.nnn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ooo img{
+    display: flex;
+    margin: auto;
+    padding: 50px;
+}
+.ooo h1{
+    text-align: center;
+}
+.ooo p{
+    text-align: center;
+}
+.ooo{
+    margin: 12px;
+}
+.ddd{
+  display: flex;
+  justify-content: space-around;
+  padding: 99px;
+}
+.ami{
+    text-align: center;
+    padding: 76px;
+}
+.pot{
+    text-align: center;
+}
+.pot button{
+    color: white;
+    margin: 0 17px;
+}
+footer{
+    max-width: 100%;
+    background: #cbcaca30;
+    padding: 13px;
+}
+
+
+.tous{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+.paragrapheFooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20em;
+}
+
+.FAQs p a{
+    color: gray;
+    font-size: 21px;
+    text-decoration: none;
+}
+.FAQs p a:hover{
+    color: #26BCA5;
+}
+
+.vous img{
+    margin:12px; 
+}
+.vous{
+    white-space: nowrap;
+}
+.vous a img:hover{
+   color: #26BCA5 !important;
+}
+@media screen  and (max-width:1440px){
+    .paragrapheFooter{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10em;
+        
+    }
+
+}
+@media screen  and (max-width:1024px){
+    .zz{
+        display: flex;
+        flex-direction: column;
+    }
+    .zz div{
+        text-align: center;
+        margin: 1em 0;
+     }
+    .vous{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        white-space: nowrap;
+        align-items: center;
+        margin: auto;
+        width: 85%;
+    }
+    .tous{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        margin: auto;
+    }
+    .paragrapheFooter{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        gap: 0;
+    }
+    .FAQs{
+        white-space: nowrap;
+        text-align: center;
+    }
+    .rrr{
+        display: flex;
+        flex-direction: column;
+    }
+    .nnn{
+        display: flex;
+        flex-direction: column;
+    }
+    .ddd{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 55px;
+    }
+    .tous{
+        display: block;
+        width: 100px;
+        margin: auto;
+    }
+    .ttt button{
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+}
+
+@media screen  and (max-width:768px){
+    .zz{
+        display: flex;
+        flex-direction: column;
+    }
+    .zz div{
+        text-align: center;
+        margin: 1em 0;
+     }
+    .vous{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        white-space: nowrap;
+        align-items: center;
+        margin: auto;
+        width: 85%;
+    }
+    .tous{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        margin: auto;
+    }
+    .paragrapheFooter{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        gap: 0;
+    }
+    .FAQs{
+        white-space: nowrap;
+        text-align: center;
+    }
+    .rrr{
+        display: flex;
+        flex-direction: column;
+    }
+    .nnn{
+        display: flex;
+        flex-direction: column;
+    }
+    .ddd{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 55px;
+    }
+    .tous{
+        display: block;
+        width: 100px;
+        margin: auto;
+    }
+    .ttt button{
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+}
+@media screen  and (max-width:425px){
+    .zz{
+        display: flex;
+        flex-direction: column;
+    }
+    .vous{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        white-space: nowrap;
+        align-items: center;
+        margin: auto;
+        width: 85%;
+    }
+    .tous{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        margin: auto;
+    }
+    .paragrapheFooter{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        gap: 0;
+    }
+    .FAQs{
+        white-space: nowrap;
+        text-align: center;
+    }
+    .rrr{
+        display: flex;
+        flex-direction: column;
+    }
+    .nnn{
+        display: flex;
+        flex-direction: column;
+    }
+    .ddd{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 55px;
+    }
+    .tous{
+        display: block;
+        width: 100px;
+        margin: auto;
+    }
+    .ttt button{
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+}
+
+@media screen  and (max-width:375px){
+    .zz{
+        display: flex;
+        flex-direction: column;
+    }
+    .vous{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        white-space: nowrap;
+        align-items: center;
+        margin: auto;
+        width: 85%;
+    }
+    .tous{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        margin: auto;
+    }
+    .paragrapheFooter{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        gap: 0;
+    }
+    .FAQs{
+        white-space: nowrap;
+        text-align: center;
+    }
+    .rrr{
+        display: flex;
+        flex-direction: column;
+    }
+    .nnn{
+        display: flex;
+        flex-direction: column;
+    }
+    .ddd{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 55px;
+    }
+    .tous{
+        display: block;
+        width: 100px;
+        margin: auto;
+    }
+    .ttt button{
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+}
+@media screen  and (max-width:320px){
+    .zz{
+        display: flex;
+        flex-direction: column;
+    }
+    .ttt button{
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    .vous img{
+        padding: 12px 5px 12px 0;
+        display: flex;
+        
+    }
+    
+    .FAQs a{
+        white-space: nowrap;
+    }
+
+    .rrr{
+        display: flex;
+        flex-direction: column;
+    }
+    .nnn{
+        display: flex;
+        flex-direction: column;
+    }
+    .ddd{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 55px;
+    } 
+    .tous{
+        display: block;
+        width: 100px;
+        margin: auto;
+    }
+
+    .toi svg{
+        padding: 0;
+    }
+    .quick p{
+        text-align: center;
+    }
+}
+    
+    
